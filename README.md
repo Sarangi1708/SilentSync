@@ -63,7 +63,7 @@ Not Applicable (This is a browser-based web application and does not require har
 
 Project Documentation
 For Software:
-![Frontend](Screenshot 2026-02-21 060605.png)
+![Frontend] (Screenshot 2026-02-21 060605.png)
 
 Screenshots
 
