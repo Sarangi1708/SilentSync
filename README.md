@@ -3,24 +3,25 @@ Basic Details
 Team Name: Ctrl+She
 Team Members
 
-Member 1: Sarangi Sajith - ASIET
-Member 2: Ceeya Sarah Varghese - MBITS
+Member 1: [Sarangi Sajith] - [ASIET]
+Member 2: [Ceeya Sarah Varghese] - [MBITS]
 
 Hosted Project Link
 
-[Add your deployed project link here]
+[Currently runs locally using npm run dev.
+Deployment in progress.]
 
 Project Description
 
-SilentSync is a Malayalam Speech-to-Sign Language web application that converts spoken Malayalam into text and displays corresponding sign language visuals in real-time. It aims to bridge communication between hearing individuals and the deaf community through accessible technology.
+[SilentSync is a Malayalam Speech-to-Sign Language web application that converts spoken Malayalam into text and displays corresponding sign language visuals in real-time. It aims to bridge communication between hearing individuals and the deaf community through accessible technology.]
 
 The Problem statement
 
-Spoken communication is not accessible to individuals who rely on sign language. In everyday interactions, there is often a communication gap between hearing individuals and the deaf community, especially in spontaneous conversations.
+[Spoken communication is not accessible to individuals who rely on sign language. In everyday interactions, there is often a communication gap between hearing individuals and the deaf community, especially in spontaneous conversations.]
 
 The Solution
 
-SilentSync uses the Web Speech API to capture Malayalam speech, convert it into text, and dynamically map recognized words to sign language images. This creates a simple, real-time visual representation of spoken communication, improving accessibility and inclusivity.
+[SilentSync uses the Web Speech API to capture Malayalam speech, convert it into text, and dynamically map recognized words to sign language images. This creates a simple, real-time visual representation of spoken communication, improving accessibility and inclusivity.]
 
 Technical Details
 Technologies/Components Used
@@ -53,7 +54,9 @@ Project Documentation
 For Software:
 <img width="1896" height="913" alt="Frontend" src="https://github.com/user-attachments/assets/3a204bd8-e611-43f0-9325-38887fb203c4" />
 
+<img width="1868" height="1007" alt="Working" src="https://github.com/user-attachments/assets/bcf1c9a5-10e6-479c-b0fe-62ca5923682f" />
 
+<img width="1885" height="892" alt="Translation" src="https://github.com/user-attachments/assets/36d8905f-6eea-4c3a-ac30-5c21b95d3ceb" />
 
 Diagrams
 
@@ -66,7 +69,7 @@ Application Workflow :
 
 
 Project Demo 
-
+[https://drive.google.com/file/d/1H7Dm0HxBUrWIPFZvL-wt6JcBUDwSFnFo/view?usp=drive_link]
 
 What the Video Demonstrates :
 The demo video showcases SilentSync in action — a real-time Malayalam Speech-to-Sign Language conversion system.
@@ -103,5 +106,15 @@ Team Contributions
 [Sarangi]: [Frontend development using React, Web Speech API integration, speech-to-text logic implementation, word-to-sign mapping system, UI styling and branding, GitHub setup and deployment.]
 [Ceeya]: [Feature planning and structuring, sign language content research, UI/UX feedback and refinement, testing and debugging support, documentation preparation.]
 
-ScreenshotsD
+License
+
+This project is licensed under the MIT License :
+MIT License
+
+Copyright (c) 2026 Sarangi Sajith, Ceeya Sarah Varghese
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction
+
 
