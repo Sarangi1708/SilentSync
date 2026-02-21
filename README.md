@@ -1,6 +1,6 @@
 SilentSync 🎯
 Basic Details
-Team Name: SilentSync
+Team Name: Ctrl+She
 Team Members
 
 Member 1: Sarangi Sajith - ASIET
@@ -31,12 +31,6 @@ Frameworks used: React (Vite)
 Libraries used: Web Speech API (Browser-based Speech Recognition)
 Tools used: VS Code, Git, GitHub, Chrome Browser
 
-For Hardware:
-
-Main components: Not Applicable (Web-based application)
-Specifications: Runs on modern browsers supporting Web Speech API (Chrome recommended)
-Tools required: Laptop/Desktop with microphone, Internet connection
-
 Features
 
 List the key features of your project:
@@ -55,15 +49,57 @@ npm install
 Run
 npm run dev
 
-Modern web browser (Chrome recommended)
-
-Circuit Setup
-
-Not Applicable (This is a browser-based web application and does not require hardware circuitry setup.)
-
 Project Documentation
 For Software:
 ![Frontend] (Screenshot 2026-02-21 060605.png)
 
-Screenshots
+Diagrams
+
+System Architecture :
+![SystemArchitecture](https://github.com/user-attachments/assets/090ff46c-4cfe-4a2f-95e0-2ae8381fa0e6)
+
+
+Application Workflow : 
+![ApplicationWorkflow](https://github.com/user-attachments/assets/66aa18c2-35e6-416b-bbae-c36d9935a8e4)
+
+
+Project Demo 
+
+
+What the Video Demonstrates :
+The demo video showcases SilentSync in action — a real-time Malayalam Speech-to-Sign Language conversion system.
+It highlights how spoken Malayalam is captured, processed, and transformed into corresponding sign language visuals within the browser.
+
+Key Features Shown :
+Real-time Malayalam speech recognition using Web Speech API
+Instant speech-to-text conversion
+Word-based sign language mapping logic
+Dynamic rendering of corresponding sign images
+Clean, accessible, and structured user interface
+Fast client-side processing (no backend required)
+
+User Flow Demonstrated :
+The user opens the SilentSync web application.
+The user clicks the “Start Speaking” button.
+The system activates the microphone and begins listening.
+Malayalam speech is captured and converted into text.
+Recognized text is displayed on the screen.
+The system checks for matching keywords in the predefined wordMap.
+Corresponding sign language images appear dynamically.
+If multiple recognized words are mapped, multiple signs are displayed.
+This demonstrates seamless real-time interaction from voice input to visual output.
+
+Technical Highlights :
+Uses the browser’s Web Speech API for Malayalam speech recognition.
+Implements client-side text cleaning and processing.
+Uses a word mapping object (wordMap) to match recognized words.
+Dynamically renders sign images using React’s state-based UI updates.
+Fully frontend-based architecture — no backend dependency.
+Lightweight, fast, and easily deployable.
+
+Team Contributions
+[Sarangi]: [Frontend development using React, Web Speech API integration, speech-to-text logic implementation, word-to-sign mapping system, UI styling and branding, GitHub setup and deployment.]
+[Ceeya]: [Feature planning and structuring, sign language content research, UI/UX feedback and refinement, testing and debugging support, documentation preparation.]
+
+ScreenshotsD
 
