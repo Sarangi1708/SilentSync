@@ -1,0 +1,129 @@
+/* Overall background */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ceebee;
+  font-family: "Inter", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Soft organic shapes */
+.background-shape {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.4;
+}
+
+.shape1 {
+  width: 400px;
+  height: 400px;
+  background: #d8e2dc;
+  top: -100px;
+  left: -100px;
+}
+
+.shape2 {
+  width: 350px;
+  height: 350px;
+  background: #cad2c5;
+  bottom: -100px;
+  right: -100px;
+}
+
+/* Card container */
+.card {
+  background: white;
+  padding: 50px;
+  border-radius: 20px;
+  width: 700px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(179, 41, 41, 0.06);
+  position: relative;
+  z-index: 1;
+}
+
+/* Title */
+.card h1 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #032938;
+  margin-bottom: 8px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #114b61;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* Sections */
+.section {
+  margin-top: 30px;
+}
+
+/* Mic button */
+.mic-button {
+  background: #084248;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mic-button:hover {
+  background: #084248;
+  transform: translateY(-2px);
+}
+
+/* Recognized speech box */
+.recognized-text {
+  margin-top: 10px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  font-size: 17px;
+  color: #01212e;
+  border: 1px solid #e0e0e0;
+  min-height: 40px;
+}
+
+/* Sign container */
+.sign-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 20px;
+}
+
+/* Sign images */
+.sign-image {
+  width: 220px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.sign-image:hover {
+  transform: scale(1.05);
+}
+
+/* Fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
