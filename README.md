@@ -1,16 +1,62 @@
-# React + Vite
+<p align="center">
+  <img src="./img.png" alt="SilentSync Banner" width="100%">
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# SilentSync 🎯
 
-Currently, two official plugins are available:
+## Basic Details
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Team Name: SilentSync
 
-## React Compiler
+### Team Members
+- Sarangi Sajith - ASIET
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+### Hosted Project Link
+[Add your deployed link here – e.g., Vercel/Netlify URL]
 
-## Expanding the ESLint configuration
+### Project Description
+SilentSync is a Malayalam Speech-to-Sign Language web application that bridges spoken communication and visual sign language. It converts Malayalam speech into text and displays corresponding sign language visuals in real-time.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### The Problem Statement
+Communication barriers exist between hearing individuals and the deaf community. Spoken conversations are not accessible to everyone, especially in everyday interactions.
+
+### The Solution
+SilentSync listens to Malayalam speech using the Web Speech API, converts it into text, and dynamically maps recognized words to sign language images — creating a simple, real-time accessibility bridge.
+
+---
+
+## Technical Details
+
+### Technologies/Components Used
+
+**For Software:**
+- Languages used: JavaScript (ES6), HTML, CSS
+- Frameworks used: React (Vite)
+- Libraries used: Web Speech API
+- Tools used: VS Code, Git, GitHub
+
+**For Hardware:**
+- Not Applicable (Web-based project)
+
+---
+
+## Features
+
+- 🎤 Malayalam Speech Recognition
+- 🔤 Real-time Text Display
+- 🤟 Word-based Sign Language Mapping
+- 🎨 Structured UI with custom color system
+- ⚡ Fast and Lightweight (React + Vite)
+- 🌐 Browser-based (No external backend required)
+
+---
+
+## Implementation
+
+### For Software:
+
+#### Installation
+```bash
+git clone https://github.com/YOURUSERNAME/SilentSync.git
+cd SilentSync
+npm install
