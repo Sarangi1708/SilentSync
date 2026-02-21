@@ -51,7 +51,9 @@ npm run dev
 
 Project Documentation
 For Software:
-![Frontend] (Screenshot 2026-02-21 060605.png)
+<img width="1896" height="913" alt="Frontend" src="https://github.com/user-attachments/assets/3a204bd8-e611-43f0-9325-38887fb203c4" />
+
+
 
 Diagrams
 
