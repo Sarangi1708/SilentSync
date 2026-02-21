@@ -8,8 +8,7 @@ Member 2: [Ceeya Sarah Varghese] - [MBITS]
 
 Hosted Project Link
 
-[Currently runs locally using npm run dev.
-Deployment in progress.]
+[https://silentsync.vercel.app/]
 
 Project Description
 
